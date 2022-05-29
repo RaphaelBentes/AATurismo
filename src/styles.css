@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+*{ 
+    font-family: "Montserrat", Sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1{
+    font-weight: 800; font-size: 40px;
+    color: #0A4DA6;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 30px;
+  }

@@ -1,51 +1,45 @@
 
-h1{
-  font-weight: 800; font-size: 40px;
-  color: #011126;
-}
-h2{
-  font-weight: 700;
-  font-size: 30px;
-}
+
   .card-roteiro{
-    float: left; margin:20px 5px; width: 340px; height: 450px;  box-shadow: 0px 1px 2px #666;
+    float: left; margin:20px 5px; width: 340px; height: 400px;  box-shadow: 0px 1px 2px #666;
   }
   .img-roteiro{
     padding: 4px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 340px;
+    width: 330px;
     height: 250px;
   
   }
   .card-titulo{
    font-size: 14px;
-   color: #011126;
+   color: #333;
+   font-weight: bold;
    padding: 10px;
-   font-weight: 500;
    height: 50px;
    overflow-y: hidden;
   }
   .card-data{
-   font-size: 20px;
-   color: #A87413;
+   font-size: 18px;
+   color: #0A6ABF;
    font-weight: 600;
    overflow-y: hidden;
    text-align: center;
   }
   .card-button-group{
       padding: 12px;
+      cursor: pointer;
   }
   .card-button-group a{
     margin: 5px;
     padding: 10px 25px; 
-    cursor: pointer;
+    text-decoration: none;
   }
   .btn-itinerario{
-    background-color: #011126;
+    background-color: #04668C;
     color: #f1f1f1;
-    border: solid 1px #011126;
+    border: solid 1px #04668C;
   }
   
   .btn-comprar{
