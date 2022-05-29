@@ -1,0 +1,72 @@
+<section style="max-width: 1000px;">
+    
+    <!--1-->
+    <div style="position: relative;">
+        <div>
+            <h1 style="text-align: center">{{titulo}}</h1>
+            <img src="https://ssvpbrasil.org.br/wp-content/uploads/2021/03/Santu%C3%A1rio-de-Aparecida-15.jpg" style="width: 100%;">
+            <div class="slide-text">Lorem ipsum began as scrambled, nonsensical Latin derived fromLorem ipsum began as scrambled, nonsensical Latin derived fromLorem ipsum began as scrambled, nonsensical Latin derived fromLorem ipsum began as scrambled, nonsensical Latin derived fromoi</div>
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    
+    <!--2-->
+    <div>  
+        <h1 style="text-align: center">ITINERÁRIO</h1>
+        <div style=" width: 100%;" *ngFor="let num of [1,2,3,4,5]">
+            <hr>
+            <div style="float:left; margin-right: 5px; height: 40px; width: 40px; border: 2px #011126 solid; text-align: center;">
+                {{num}}º <span style="font-weight: 600;">DIA</span>
+            </div>
+            <div style="min-height: 40px; max-height: auto;">
+                <p>Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.</p>
+            </div>
+            <hr>
+        </div>
+    </div>
+    
+    <!--3-->
+    <div style="margin-top: 150px; margin-bottom: 150px;">
+        <div style="text-align: center;">
+            <h1>SOLICITAR ORÇAMENTO</h1>
+            Insira seus dados, e logo entraremos em contato:
+            <br><br>
+        </div>
+        <div style="max-width: 500px; margin-left: auto; margin-right: auto; padding: 20px;">
+            <div style="width: 100%;display: inline-block">
+                <label for="">Nome</label>
+                <input type="text" style="width: 100%; padding: 15px; margin-bottom: 15px;" placeholder="Nome">
+            </div>
+            <div style="width: 100%;">
+                <div style="width: 50%;display: inline-block">
+                    <label for="">Telefone</label>
+                    <input type="text"  style="width: 100%; padding: 15px; margin-bottom: 15px;" placeholder="(00) 00000-0000">
+                </div>
+                <div style="width: 50%; display: inline-block;">
+                    <label for="">Email</label>
+                    <input type="email" style="width: 100%; padding: 15px; margin-bottom: 15px;"  placeholder="Email">
+                </div>
+            </div>
+            <div style="width: 100%;">
+                <input type="radio" style="padding: 15px; margin-bottom: 15px;" placeholder="Nome">
+                <label for="">Declaro que li os termos da Política de Privacidade.</label>
+            </div>
+            <div style="width: 100%; ">
+                <button style="display: block;
+                width: 100%;
+                border: 1px solid #e0c32f;
+                background-color: #e0c32f;
+                color: white;
+                padding: 15px;
+                font-size: 16px;
+                cursor: pointer;
+                box-sizing: content-box;
+                text-transform: uppercase;
+                font-weight: 600;
+                text-align: center;">Enviar Solicitação</button>
+            </div>
+        </div>
+    </div>
+    
+</section>

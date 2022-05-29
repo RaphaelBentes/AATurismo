@@ -1,0 +1,20 @@
+
+
+  <section>
+    <h1 style="text-align: center;">ROTERIOS ABERTOS</h1>
+    <div class="card-roteiro" *ngFor="let roteiro of Roteiros">
+      <img class="img-roteiro" src={{roteiro.img}}>
+      <div class="card-titulo">
+        <p>{{roteiro.titulo}} - {{roteiro.id}}</p>
+      </div>
+      <hr>
+      <div class="card-data">
+        {{roteiro.data_inicio}} à {{roteiro.data_termino}}
+      </div>
+      <hr>
+      <div class="card-button-group">
+        <a class="btn-comprar">SELECIONAR</a>
+        <a [routerLink]="['roteiro',roteiro.id,roteiro.titulo]" class="btn-itinerario">ITINERÁRIO</a>
+      </div>
+    </div>
+  </section>
